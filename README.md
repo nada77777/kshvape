@@ -13,3 +13,4 @@ ProfilePages.jsx 컴포넌트에서 data를 import해서 구조 분해 할당 �
 
 과제를 진행하며 proptypes 코드 작성이 끝나고 생각지도 못하게 각각 속성검사 코드를 가져와서  
 types.d.js라는 하나의 파일에 정의해서 export해서 사용하는 부분에서 애를 먹었다
+# kshvape

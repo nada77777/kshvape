@@ -42,7 +42,7 @@ const BookmarkPage = () => {
           </div>
         </section>
       )}
-      {!!bookmarkItems.length && <h1>Bookmark</h1>}
+      {!!bookmarkItems.length && <h1 className={S.title}>Bookmark</h1>}
       <ul aria-label="북마크한 아이템 리스트">{bookmarkItem}</ul>
       {isOpenPopup && (
         <Popup text={"북마크 삭제 완료!"} onClick={setIsOpenPopup} aria-live="polite" />

@@ -10,7 +10,7 @@ const Items = ({ flavor }) => {
   const { isError, data: items } = useQuery({
     queryKey: ["items", flavor],
     queryFn: () => getData(flavor),
-    staleTime: 60000,
+    staleTime: 600000,
   });
 
   const error = isError && <p>{isError}</p>;
